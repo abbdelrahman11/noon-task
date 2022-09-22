@@ -1,0 +1,145 @@
+body {
+  font-family: Cairo, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #feee00;
+  font-weight: bold;
+  color: black;
+  height: 65px;
+  cursor: pointer;
+}
+.nav-item {
+  text-align: right;
+}
+.nav-item a i {
+  margin-right: 5px;
+}
+::placeholder {
+  text-align: right;
+}
+
+.navbar-nav img {
+  height: 25px;
+  position: absolute;
+  top: 23px;
+  right: 30px;
+}
+form {
+  width: 55%;
+}
+.menu  {
+  display: flex;
+}
+.main-element {
+  margin-top: 7px;
+  margin-left: 30px;
+  color: #3866df;
+}
+.main-element-card {
+  list-style: none;
+  display: flex;
+  width: 80%;
+  padding: 8px;
+  cursor: pointer;
+  background-color: #fcfbf4;
+  text-align: center;
+}
+.main-element-card li {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-element-card ul li:hover{
+  color: #3866df;
+}
+
+.table-holder table {
+  position: absolute;
+  width: 55%;
+  height: 65%;
+  float: right;
+  background-color: #fcfbf4;
+  border: #fff;
+  cursor: pointer;
+  top: 110px;
+  right: 0px;
+  visibility: hidden;
+  z-index: 4;
+}
+.table-holder table tbody tr td:hover {
+  color: #3866df;
+}
+
+.table-holder table tr td {
+  border: none;
+}
+
+.table-container:hover table {
+  visibility: visible;
+  border-bottom-left-radius: 10px;
+}
+.clear{
+    clear: both;
+}
+
+.element-card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 99px;
+    display: none;
+    z-index: 3;
+    background-color: #fcfbf4;
+    height: 60vh;
+}
+
+.element-card div{
+  height: 70%;
+  float: right;
+}
+.element-card .first{
+width:20%
+
+}
+.element-card .second{
+  width:38%
+
+}
+.element-card .third{
+  width:42%
+
+}
+.element-card .images{
+  display: flex;
+  flex-wrap: wrap;
+}
+.element-card ul li {
+  list-style: none;
+}
+
+.element-card img {
+  width: 150px;
+  height: 105px;
+}
+.element-card .text li{
+margin-top: 10px;
+display: block;
+font-size: 14px;
+}
+
+.element-card .image{
+  display: flex;
+}
+.element-card .image img{
+  height: 340px;
+  width: 270px;
+  margin: 10px;
+}
+
+
+.hover-element:hover  .element-card { 
+  display: block;  
+}
+

@@ -1,0 +1,48 @@
+.card-holder{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.card-holder .card{
+  display: flex;
+  border: none;
+  margin-top: 10vh;
+  align-items: center;
+
+}
+
+.card-holder .card-body p{
+  font-weight: bold;
+  font-size: 19px;
+}
+.card-holder .card img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.carousel img{
+  width: 95%;
+  height: 50vh;
+  margin: auto;
+}
+
+.home-card{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+.home-card .card{
+  margin: 20px;
+}
+
+.hold-home-card{
+  margin-top: 100px;
+}
+.home-card .card-body{
+  height: auto;
+}
+.home-card .card-body p{
+  text-align: left;
+} 
